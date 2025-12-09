@@ -3,7 +3,7 @@ import Header from "../../../components/Header.vue";
 import Banner from "../../../components/Banner.vue";
 import Footer from "../../../components/Footer.vue";
 import Usps from "../../../components/Usps.vue";
-import Newsletter from "../../../components/newsletter.vue";
+import Newsletter from "../../../components/Newsletter.vue";
 import Video from "../../../components/Video.vue";
 import App_control from "../../../components/App_control.vue";
 import "../../../style.css";
