@@ -2,7 +2,7 @@
   <!-- 🔹 HERO -->
   <section class="bg-light py-5 text-center mt-4">
     <div class="container">
-      <h1 class="fw-bold mb-3">Về SmartBlinds</h1>
+      <h1 class="fw-bold mb-3">Về IKEA</h1>
       <p class="text-muted col-md-8 mx-auto">
         SmartBlinds mang đến giải pháp rèm cửa thông minh giúp ngôi nhà của bạn
         tiện nghi và hiện đại hơn mỗi ngày.
