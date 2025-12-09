@@ -1,0 +1,106 @@
+/* ===== Global ===== */
+body {
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f2f5;
+  overflow-x: hidden;
+}
+
+/* ===== Sidebar ===== */
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: #2f343a; /* tối nhưng hiện đại */
+  color: #ddd;
+  box-shadow: 2px 0 6px rgba(0,0,0,0.1); /* bóng nhẹ */
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+  padding-top: 0;
+}
+
+.sidebar a {
+  color: #ccc;
+  text-decoration: none;
+  padding: 12px 20px;
+  display: block;
+  transition: all 0.3s ease;
+  border-radius: 6px;
+  margin: 4px 8px;
+}
+
+.sidebar a:hover {
+  background: #495057;
+  color: #fff;
+  text-decoration: none;
+  transform: translateX(2px);
+}
+
+/* ===== Navbar ===== */
+.navbar-custom {
+  position: fixed;
+  top: 0;
+  left: 250px;
+  width: calc(100% - 250px);
+  height: 60px;
+  z-index: 1000;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #ccc;
+}
+
+/* ===== Content ===== */
+#adminContent {
+  margin-left: 250px;
+  margin-top: 60px; /* tránh bị navbar che */
+  margin-bottom: 50px; /* tránh bị footer che */
+  padding: 20px 30px;
+  width: calc(100% - 250px);
+  background-color: #f0f2f5;
+  min-height: calc(100vh - 110px); /* trừ navbar + footer */
+  box-sizing: border-box;
+  overflow-y: auto;
+  transition: all 0.3s ease;
+}
+
+.admin-inner-content {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+/* ===== Footer ===== */
+.footer-custom {
+  position: fixed;
+  bottom: 0;
+  left: 250px;
+  width: calc(100% - 250px);
+  height: 50px;
+  background-color: #2c2c2c; /* xám đậm trung tính */
+  color: #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  border-top: 1px solid #444;
+  box-shadow: 0 -2px 6px rgba(0,0,0,0.1);
+  font-size: 14px;
+  z-index: 1000;
+}
+
+.footer-custom a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-custom a:hover {
+  color: #fff;
+}
